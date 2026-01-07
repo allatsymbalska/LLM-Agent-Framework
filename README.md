@@ -77,9 +77,9 @@ The system was evaluated using 7 test customer queries with predefined expected 
 
 | Model  | Correct | Total | Accuracy | Avg Time (s) |
 | ------ | ------- | ----- | -------- | ------------ |
-| GPT    | 7       | 7     | 100.0%   | 1.111        |
-| Claude | 5       | 7     | 71.4%    | 1.365        |
-| Gemini | 7       | 7     | 100.0%   | 0.742        |
+| GPT    | 7       | 7     | 100.0%   | 1.027        |
+| Gemini | 7       | 7     | 100.0%   | 0.674        |
+| Claude | 5       | 7     | 71.4%    | 1.243        |
 
 
 ## Conclusion
@@ -87,7 +87,7 @@ The system was evaluated using 7 test customer queries with predefined expected 
 **Best performing model: Gemini**
 
 - High routing accuracy: 100%
-- Fastest average response time: 0.742 seconds
+- Fastest average response time: 0.674 seconds
   
 Reasoning:
 - Gemini demonstrates perfect intent routing while providing the fastest response time, making it ideal for real-time customer query handling.
