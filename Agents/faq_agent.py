@@ -6,7 +6,8 @@ class FAQAgent:
         self.faq_data = faq_data or {
             "hours": "We are open from 9am to 8pm Mon-Fri, from 10am to 18pm on Saturday.",
             "return": "You can return items within 30 days of purchase.",
-            "shipping": "Shipping takes 3–5 business days."
+            "shipping": "Shipping takes 3–5 business days.",
+            "store": "Our store is located at  Bulevardi 21, 00180 Helsinki."
         }
 
     # handle user query and return FAQ answer
