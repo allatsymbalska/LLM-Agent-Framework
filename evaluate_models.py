@@ -9,7 +9,7 @@ import time
 from Agents.faq_agent import FAQAgent
 from Agents.order_status_agent import OrderStatusAgent
 from Router.llm_router import LLMRouter
-from llm_wrappers import gpt_llm, claude_llm, gemini_llm
+from llm_wrappers import gpt_llm, gemini_llm, claude_llm
 
 
 # load test queries from JSON
@@ -25,8 +25,8 @@ order_agent = OrderStatusAgent()
 # LLMs to evaluate
 llms = {
     "GPT": gpt_llm,
-    "Claude": claude_llm,
-    "Gemini": gemini_llm
+    "Gemini": gemini_llm,
+    "Claude": claude_llm
 }
 
 
