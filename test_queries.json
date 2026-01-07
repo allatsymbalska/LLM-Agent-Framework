@@ -1,0 +1,9 @@
+[
+    {"query": "What are your store hours?", "expected": "FAQ"},
+    {"query": "Can I return an item?", "expected": "FAQ"},
+    {"query": "How long does shipping take?", "expected": "FAQ"},
+    {"query": "Where is my store located?", "expected": "FAQ"},
+    {"query": "Where is my order 1111?", "expected": "ORDER_STATUS"},
+    {"query": "Order 1212 status?", "expected": "ORDER_STATUS"},
+    {"query": "Track my order 1313", "expected": "ORDER_STATUS"}
+]
